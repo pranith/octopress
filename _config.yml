@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://pranith.github.io
-title: Tech Ramblings
-subtitle: on parallelism and such
+title: ātmādhyaya
+subtitle: thoughts on tech, programming, parallelism etc.,
 author: Pranith Kumar
 simple_search: https://www.google.com/search
 description:
@@ -95,7 +95,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-76946118-1
 
 # Facebook Like
 facebook_like: false

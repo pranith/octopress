@@ -1,0 +1,23 @@
+---
+layout: post
+title: "QEMU GSoC 2016"
+date: 2016-04-26 00:48:40 -0400
+comments: true
+published: true
+categories: gsoc, qemu
+---
+
+My proposal to work on memory consistency issues in the multi-threaded TCG
+project got accepted as part of Google Summer Of Code 2016! For those of you
+interested in the details, at a very high level, I am going to work on
+enabling execution of mis-matched memory model guest architectures on a
+different host architecture. The easiest way to achieve this is to generate
+memory fence instructions on every memory access, but this has a drastic
+overhead on performance since fence instructions can have significant
+latency. The plan is to generate fence instructions appropriately to ensure
+the consistency model expected by the guest while keeping the performance
+overhead to a minimum.
+
+I am looking forward to working with my mentor Alex Bennée and get the patches
+accepted upstream by the end of summer. I will use this blog to keep track of
+my progress and as a sounding board for the work I will be doing.
