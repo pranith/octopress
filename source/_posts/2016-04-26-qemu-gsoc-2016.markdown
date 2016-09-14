@@ -4,7 +4,7 @@ title: "QEMU GSoC 2016"
 date: 2016-04-26 00:48:40 -0400
 comments: true
 published: true
-categories: gsoc, qemu
+categories: gsoc qemu
 ---
 
 My proposal to work on memory consistency issues in the multi-threaded TCG
