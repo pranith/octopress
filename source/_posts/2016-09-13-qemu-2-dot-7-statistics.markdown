@@ -224,12 +224,14 @@ particular), nbd and general QEMU execution infrastructure.
 </tbody>
 </table>
 
-The companies which sponsor QEMU development are about 21 of which the major
-one is Red Hat. I am guessing this is mainly because of their investment in
-KVM. The unknown row is supposed to be contributions from individuals with no
+I counted about 21 companies (I am sure there are more) which sponsor QEMU
+development.  The major ones among these are Red Hat, Linaro and IBM.  I think
+the main reason for the overwhelming showing by Red Hat is mainly because of
+their involvement in KVM, which is their virtualization tool of choice. The
+unknown row is supposed to be contributions from individuals with no
 affiliation, but I think the case here that of missing information. Many
 developers use their personal non-affiliated email id in the commit messages,
-which makes it difficult to identify the company employing them. 
+which makes it difficult to identify the company employing them.
 
 Having said that, let us look at who is employing the hackers working on QEMU.
 
